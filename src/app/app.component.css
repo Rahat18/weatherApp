@@ -1,0 +1,114 @@
+.outer-container{
+    width: 400px;
+    height: 500px;
+    background-color: #aecaba;
+    border-radius: 20px;
+    /* box-shadow: 10px 10px 10px 10px; */
+    /* margin-top: 22px; */
+    /* margin-bottom: 20px; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.inner-container1{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.inner-container1 img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.inner-container2{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.weather-data{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.temperature{
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 1000;
+}
+
+.more-info-label{
+    color: white;
+    font-size: 25px;
+}
+
+.more-info-container{
+    flex: 1;
+    /* background-color: aliceblue; */
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: 1em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-block-label{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.info-block-label img{
+    width: 40px;
+    color: white;
+}
+.info-block-label span{
+    font-size: 18px;
+    color: white;
+    
+}
+.info-block-value{
+    width: 50%;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
